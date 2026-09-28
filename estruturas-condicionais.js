@@ -83,11 +83,44 @@ if (valorCompra >= 200) {
   console.log("20 reais de frete");
 } */
 
-
-  let numero = Number(prompt("digite um numero: "));
+/* 
+  let numero = 25;
 
 if (numero >= 10 && numero <= 50) {
   console.log("esta no intervalo");
 } else {
   console.log("fora do intervalo");
-}
+} */
+/* 
+  let ano = 2000
+
+  if(ano % 400 == 0 && ano % 100 == 0){
+    console.log{'${ano} é bissexto'};
+  } else if(ano % 4 == 0 && ano % 100 != 0){ 
+    console.log{'${ano} é bissexto'};
+  } else{
+    console.log{'${ano} é bissexto'};
+  } */
+
+/*   let semaforo = "verde";
+  switch(semaforo) {
+    case "verde":
+      console.log("siga em frente");
+    break;
+    case "amarelo":
+      console.log("diminua");
+    break;
+    case "vermelho":
+      console.log("pare");
+    break;
+
+  default:
+    console.log("semaforo com defeito");
+    break;
+      
+  } */
+
+/* let moeda = "cara";
+moeda == "cara" ? console.log("cara") : console.log("coroa"); */
+
+(2 % 2 == 0) ? console.log("Par") : console.log("Impar")
