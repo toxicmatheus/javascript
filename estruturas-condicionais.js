@@ -50,7 +50,7 @@ if(number % 2 == 0){
  }
  */
  
- let valor = 100;
+/*  let valor = 100;
  let porcentagem = 10;
  let desconto = (valor * porcentagem) / 100;
 
@@ -64,3 +64,30 @@ if(number % 2 == 0){
  } else{
     log("nao esta no intervalo")
  }
+ */
+
+/* let usuario = prompt("digite o nome de usuário: ");
+let senha = prompt("digite a senha: ");
+
+if (usuario === "zezin" && senha === "999333555") {
+  console.log("Acesso permitido");
+} else {
+  console.log("Acesso negado");
+} */
+
+/* let valorCompra = Number(prompt("digite o valor da compra: "));
+
+if (valorCompra >= 200) {
+  console.log("frete gratis");
+} else {
+  console.log("20 reais de frete");
+} */
+
+
+  let numero = Number(prompt("digite um numero: "));
+
+if (numero >= 10 && numero <= 50) {
+  console.log("esta no intervalo");
+} else {
+  console.log("fora do intervalo");
+}
